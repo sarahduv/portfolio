@@ -1,3 +1,13 @@
+#myVideo {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  bottom: 100px;
+  width: 50%; 
+  min-height: 110%;
+  min-width: 100%;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -1850,9 +1860,10 @@ hr {
 				background-position: center center;
 			}
 
+      /* the below is the banner image*/
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner-2.jpg");
+				/* background-color: #81918E;
+        background-image: url("../../images/overlay.jpg");  */
 			}
 
 			#main > section.two {
@@ -1915,7 +1926,7 @@ hr {
 
 /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	@media screen and (min-width: 361px) and (max-width: 920px) {
 
 		/* Basic */
 
@@ -1986,7 +1997,7 @@ hr {
 		display: none;
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 560px) {
 
 		/* Basic */
 
@@ -2049,7 +2060,8 @@ hr {
 			}
 
 				#header .top {
-					position: relative;
+          position: relative;
+          display: inline-block;
 				}
 
 				#header .bottom {
@@ -2094,7 +2106,7 @@ hr {
 					height: 100%;
 					outline: 0;
 					border: 0;
-				}
+				} */
 
 					#headerToggle .toggle:before {
 						font-family: FontAwesome;
@@ -2117,7 +2129,7 @@ hr {
 						width: 3.25em;
 						height: 2.25em;
 						line-height: 2.25em;
-					}
+					} */
 
 			body.header-visible #main {
 				-moz-transform: translateX(275px);
