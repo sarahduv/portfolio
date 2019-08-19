@@ -11,3 +11,9 @@ Estimate time needed to complete: 1 hour
 Start Time: 10:40am
 End time: 11:25am
 Actual time needed to complete: 45 minutes
+
+Number and name of feature: 1 / Add functionality
+Estimate of time needed to complete: 1 hour
+Start time:8:50am
+Finish time: _____
+Actual time needed to complete: _____
