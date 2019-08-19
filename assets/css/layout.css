@@ -1,3 +1,13 @@
+#myVideo {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  bottom: 100px;
+  width: 50%; 
+  min-height: 110%;
+  min-width: 100%;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -1850,9 +1860,10 @@ hr {
 				background-position: center center;
 			}
 
+      /* the below is the banner image*/
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner-2.jpg");
+				/* background-color: #81918E;
+        background-image: url("../../images/overlay.jpg");  */
 			}
 
 			#main > section.two {
